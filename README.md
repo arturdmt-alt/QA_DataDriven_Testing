@@ -186,11 +186,10 @@ Execution logs stored in `logs/` with timestamps.
 ## Screenshots
 
 ### HTML Report - Summary
-![HTML Report Summary](screenshots/html_report_summary.jpg) 
+![HTML Report Summary](screenshots/html_report_environment.jpg)
 
 ### HTML Report - Environment
-![HTML Report Environment](screenshots/html_report_environment.jpg) 
-```
+![HTML Report Environment](screenshots/html_report_summary.jpg)
 
 ## CI/CD
 
@@ -200,7 +199,6 @@ GitHub Actions workflow automatically:
 - Archives artifacts
 
 **Note:** CI pipelines validate framework stability rather than API correctness when using third-party systems.
-
 
 ## Author
 
