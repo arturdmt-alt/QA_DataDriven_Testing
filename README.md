@@ -186,10 +186,11 @@ Execution logs stored in `logs/` with timestamps.
 ## Screenshots
 
 ### HTML Report - Summary
-![HTML Report Summary](screenshots/html_report_summary.jpg)
+![HTML Report Summary](screenshots/html_report_environment.jpg)
 
 ### HTML Report - Environment
-![HTML Report Environment](screenshots/html_report_environment.jpg)
+![HTML Report Environment](screenshots/html_report_summary.jpg)
+```
 
 ## CI/CD
 
