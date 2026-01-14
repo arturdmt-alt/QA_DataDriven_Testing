@@ -1,0 +1,9 @@
+test_id,keyword,min_results,test_type
+TC_011,user,1,positive
+TC_012,admin,0,positive
+TC_013,test,0,positive
+TC_014,page,1,positive
+TC_015,api,0,positive
+TC_016,@#$%,0,negative
+TC_017,,0,edge_case
+TC_018,verylongkeywordthatexceedsnormallimitsverylongkeywordthatexceedsnormallimits,0,edge_case

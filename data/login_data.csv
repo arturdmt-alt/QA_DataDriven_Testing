@@ -1,0 +1,11 @@
+test_id,username,password,expected_result,test_type
+TC_001,eve.holt@reqres.in,cityslicka,success,positive
+TC_002,michael.lawson@reqres.in,testpass123,success,positive
+TC_003,lindsay.ferguson@reqres.in,secure456,success,positive
+TC_004,invalid@test.com,wrongpass,error,negative
+TC_005,eve.holt@reqres.in,wrongpassword,error,negative
+TC_006,,cityslicka,error,negative
+TC_007,eve.holt@reqres.in,,error,negative
+TC_008,,,error,edge_case
+TC_009,test@special.com,pass123,error,edge_case
+TC_010,eve.holt@reqres.in,a,error,edge_case

@@ -1,0 +1,18 @@
+2026-01-14 18:06:50 - conftest - INFO - ================================================================================
+2026-01-14 18:06:50 - conftest - INFO - TEST SESSION STARTED
+2026-01-14 18:06:50 - conftest - INFO - ================================================================================
+2026-01-14 18:06:50 - conftest - INFO - Loading test configuration
+2026-01-14 18:06:50 - conftest - INFO - Base URL configured: https://reqres.in/api
+2026-01-14 18:06:50 - conftest - INFO - Starting test: test_login_data_driven[test_data0]
+2026-01-14 18:06:52 - conftest - INFO - Finished test: test_login_data_driven[test_data0]
+2026-01-14 18:06:52 - conftest - INFO - Starting test: test_login_data_driven[test_data1]
+2026-01-14 18:06:52 - conftest - INFO - Finished test: test_login_data_driven[test_data1]
+2026-01-14 18:06:52 - conftest - INFO - Starting test: test_login_data_driven[test_data2]
+2026-01-14 18:06:53 - conftest - INFO - Finished test: test_login_data_driven[test_data2]
+2026-01-14 18:06:53 - conftest - INFO - Starting test: test_login_data_driven[test_data3]
+2026-01-14 18:06:54 - conftest - INFO - Finished test: test_login_data_driven[test_data3]
+2026-01-14 18:06:54 - conftest - INFO - Starting test: test_login_data_driven[test_data4]
+2026-01-14 18:06:55 - conftest - INFO - Finished test: test_login_data_driven[test_data4]
+2026-01-14 18:06:55 - conftest - INFO - ================================================================================
+2026-01-14 18:06:55 - conftest - INFO - TEST SESSION FINISHED
+2026-01-14 18:06:55 - conftest - INFO - ================================================================================

@@ -1,0 +1,8 @@
+test_id,field,value,expected_error,test_type
+TC_019,email,notanemail,invalid_format,negative
+TC_020,email,@test.com,invalid_format,negative
+TC_021,email,test@,invalid_format,negative
+TC_022,password,123,too_short,negative
+TC_023,password,,required_field,negative
+TC_024,username,<script>alert(1)</script>,injection_attempt,security
+TC_025,username,admin' OR '1'='1,sql_injection,security

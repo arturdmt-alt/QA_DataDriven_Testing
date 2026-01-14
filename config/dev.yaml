@@ -1,0 +1,26 @@
+environment: dev
+
+sut:
+  name: "ReqRes.in API"
+  base_url: "https://reqres.in/api"
+  endpoints:
+    login: "/login"
+    register: "/register"
+    users: "/users"
+
+test_config:
+  timeout: 30
+  retry_attempts: 3
+  wait_time: 2
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  console_output: true
+
+data_files:
+  csv_login: "data/login_data.csv"
+  excel_users: "data/user_registration.xlsx"
+  json_api: "data/api_test_data.json"
+  csv_invalid: "data/invalid_data.csv"
+  

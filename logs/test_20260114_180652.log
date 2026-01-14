@@ -1,0 +1,4 @@
+2026-01-14 18:06:52 - test_login_data_driven[test_data1] - INFO - Running TC_002 - Type: positive
+2026-01-14 18:06:52 - test_login_data_driven[test_data1] - INFO - Positive test with username: michael.lawson@reqres.in
+2026-01-14 18:06:52 - test_login_data_driven[test_data2] - INFO - Running TC_003 - Type: positive
+2026-01-14 18:06:52 - test_login_data_driven[test_data2] - INFO - Positive test with username: lindsay.ferguson@reqres.in

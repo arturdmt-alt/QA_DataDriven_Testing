@@ -1,0 +1,64 @@
+{
+  "login_tests": [
+    {
+      "test_id": "TC_031",
+      "endpoint": "/login",
+      "method": "POST",
+      "payload": {
+        "email": "eve.holt@reqres.in",
+        "password": "cityslicka"
+      },
+      "expected_status": 200,
+      "test_type": "positive"
+    },
+    {
+      "test_id": "TC_032",
+      "endpoint": "/login",
+      "method": "POST",
+      "payload": {
+        "email": "peter@klaven"
+      },
+      "expected_status": 400,
+      "test_type": "negative"
+    }
+  ],
+  "register_tests": [
+    {
+      "test_id": "TC_033",
+      "endpoint": "/register",
+      "method": "POST",
+      "payload": {
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+      },
+      "expected_status": 200,
+      "test_type": "positive"
+    },
+    {
+      "test_id": "TC_034",
+      "endpoint": "/register",
+      "method": "POST",
+      "payload": {
+        "email": "sydney@fife"
+      },
+      "expected_status": 400,
+      "test_type": "negative"
+    }
+  ],
+  "users_tests": [
+    {
+      "test_id": "TC_035",
+      "endpoint": "/users/2",
+      "method": "GET",
+      "expected_status": 200,
+      "test_type": "positive"
+    },
+    {
+      "test_id": "TC_036",
+      "endpoint": "/users/23",
+      "method": "GET",
+      "expected_status": 404,
+      "test_type": "negative"
+    }
+  ]
+}

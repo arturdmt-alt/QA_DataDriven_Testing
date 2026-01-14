@@ -1,0 +1,44 @@
+INFO     utils.data_reader:data_reader.py:25 Successfully loaded CSV: data/login_data.csv (10 rows)
+INFO     utils.data_reader:data_reader.py:25 Successfully loaded CSV: data/invalid_data.csv (7 rows)
+INFO     utils.data_reader:data_reader.py:51 Successfully loaded Excel: data/user_registration.xlsx (5 rows)
+INFO     utils.data_reader:data_reader.py:75 Successfully loaded JSON: data/api_test_data.json
+INFO     utils.data_reader:data_reader.py:75 Successfully loaded JSON: data/api_test_data.json
+INFO     utils.data_reader:data_reader.py:75 Successfully loaded JSON: data/api_test_data.json
+INFO     conftest:conftest.py:63 ================================================================================
+INFO     conftest:conftest.py:64 TEST SESSION STARTED
+INFO     conftest:conftest.py:65 ================================================================================
+INFO     conftest:conftest.py:34 Loading test configuration
+INFO     conftest:conftest.py:46 Base URL configured: https://reqres.in/api
+INFO     conftest:conftest.py:80 Starting test: test_login_data_driven[test_data0]
+INFO     test_login_data_driven[test_data0]:test_csv_driven.py:21 Running TC_001 - Type: positive
+INFO     test_login_data_driven[test_data0]:test_csv_driven.py:25 Positive test with username: eve.holt@reqres.in
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "POST /api/login HTTP/1.1" 403 None
+INFO     conftest:conftest.py:84 Finished test: test_login_data_driven[test_data0]
+INFO     conftest:conftest.py:80 Starting test: test_login_data_driven[test_data1]
+INFO     test_login_data_driven[test_data1]:test_csv_driven.py:21 Running TC_002 - Type: positive
+INFO     test_login_data_driven[test_data1]:test_csv_driven.py:25 Positive test with username: michael.lawson@reqres.in
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "POST /api/login HTTP/1.1" 403 None
+INFO     conftest:conftest.py:84 Finished test: test_login_data_driven[test_data1]
+INFO     conftest:conftest.py:80 Starting test: test_login_data_driven[test_data2]
+INFO     test_login_data_driven[test_data2]:test_csv_driven.py:21 Running TC_003 - Type: positive
+INFO     test_login_data_driven[test_data2]:test_csv_driven.py:25 Positive test with username: lindsay.ferguson@reqres.in
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "POST /api/login HTTP/1.1" 403 None
+INFO     conftest:conftest.py:84 Finished test: test_login_data_driven[test_data2]
+INFO     conftest:conftest.py:80 Starting test: test_login_data_driven[test_data3]
+INFO     test_login_data_driven[test_data3]:test_csv_driven.py:21 Running TC_004 - Type: negative
+INFO     test_login_data_driven[test_data3]:test_csv_driven.py:27 Negative test - expecting error
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "POST /api/login HTTP/1.1" 403 None
+INFO     conftest:conftest.py:84 Finished test: test_login_data_driven[test_data3]
+INFO     conftest:conftest.py:80 Starting test: test_login_data_driven[test_data4]
+INFO     test_login_data_driven[test_data4]:test_csv_driven.py:21 Running TC_005 - Type: negative
+INFO     test_login_data_driven[test_data4]:test_csv_driven.py:27 Negative test - expecting error
+DEBUG    urllib3.connectionpool:connectionpool.py:1049 Starting new HTTPS connection (1): reqres.in:443
+DEBUG    urllib3.connectionpool:connectionpool.py:544 https://reqres.in:443 "POST /api/login HTTP/1.1" 403 None
+INFO     conftest:conftest.py:84 Finished test: test_login_data_driven[test_data4]
+INFO     conftest:conftest.py:69 ================================================================================
+INFO     conftest:conftest.py:70 TEST SESSION FINISHED
+INFO     conftest:conftest.py:71 ================================================================================

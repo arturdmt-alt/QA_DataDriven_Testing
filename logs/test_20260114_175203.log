@@ -1,0 +1,99 @@
+2026-01-14 17:52:04 - conftest - INFO - ================================================================================
+2026-01-14 17:52:04 - conftest - INFO - TEST SESSION STARTED
+2026-01-14 17:52:04 - conftest - INFO - ================================================================================
+2026-01-14 17:52:04 - conftest - INFO - Loading test configuration
+2026-01-14 17:52:04 - conftest - INFO - Base URL: https://reqres.in/api
+2026-01-14 17:52:04 - conftest - INFO - Starting test: test_login_data_driven[test_data0]
+2026-01-14 17:52:04 - utils.logger - INFO - Running TC_001 - Type: positive
+2026-01-14 17:52:04 - utils.logger - INFO - Positive test with username: eve.holt@reqres.in
+2026-01-14 17:52:06 - conftest - INFO - Finished test: test_login_data_driven[test_data0]
+2026-01-14 17:52:06 - conftest - INFO - Starting test: test_login_data_driven[test_data1]
+2026-01-14 17:52:06 - utils.logger - INFO - Running TC_002 - Type: positive
+2026-01-14 17:52:06 - utils.logger - INFO - Positive test with username: michael.lawson@reqres.in
+2026-01-14 17:52:07 - conftest - INFO - Finished test: test_login_data_driven[test_data1]
+2026-01-14 17:52:07 - conftest - INFO - Starting test: test_login_data_driven[test_data2]
+2026-01-14 17:52:07 - utils.logger - INFO - Running TC_003 - Type: positive
+2026-01-14 17:52:07 - utils.logger - INFO - Positive test with username: lindsay.ferguson@reqres.in
+2026-01-14 17:52:08 - conftest - INFO - Finished test: test_login_data_driven[test_data2]
+2026-01-14 17:52:08 - conftest - INFO - Starting test: test_login_data_driven[test_data3]
+2026-01-14 17:52:08 - utils.logger - INFO - Running TC_004 - Type: negative
+2026-01-14 17:52:08 - utils.logger - INFO - Negative test - expecting error
+2026-01-14 17:52:08 - conftest - INFO - Finished test: test_login_data_driven[test_data3]
+2026-01-14 17:52:08 - conftest - INFO - Starting test: test_login_data_driven[test_data4]
+2026-01-14 17:52:08 - utils.logger - INFO - Running TC_005 - Type: negative
+2026-01-14 17:52:08 - utils.logger - INFO - Negative test - expecting error
+2026-01-14 17:52:09 - conftest - INFO - Finished test: test_login_data_driven[test_data4]
+2026-01-14 17:52:09 - conftest - INFO - Starting test: test_login_data_driven[test_data5]
+2026-01-14 17:52:09 - utils.logger - INFO - Running TC_006 - Type: negative
+2026-01-14 17:52:09 - utils.logger - INFO - Negative test - expecting error
+2026-01-14 17:52:10 - conftest - INFO - Finished test: test_login_data_driven[test_data5]
+2026-01-14 17:52:10 - conftest - INFO - Starting test: test_login_data_driven[test_data6]
+2026-01-14 17:52:10 - utils.logger - INFO - Running TC_007 - Type: negative
+2026-01-14 17:52:10 - utils.logger - INFO - Negative test - expecting error
+2026-01-14 17:52:10 - conftest - INFO - Finished test: test_login_data_driven[test_data6]
+2026-01-14 17:52:10 - conftest - INFO - Starting test: test_login_data_driven[test_data7]
+2026-01-14 17:52:10 - utils.logger - INFO - Running TC_008 - Type: edge_case
+2026-01-14 17:52:10 - conftest - INFO - Finished test: test_login_data_driven[test_data7]
+2026-01-14 17:52:10 - conftest - INFO - Starting test: test_login_data_driven[test_data8]
+2026-01-14 17:52:10 - utils.logger - INFO - Running TC_009 - Type: edge_case
+2026-01-14 17:52:10 - conftest - INFO - Finished test: test_login_data_driven[test_data8]
+2026-01-14 17:52:10 - conftest - INFO - Starting test: test_login_data_driven[test_data9]
+2026-01-14 17:52:10 - utils.logger - INFO - Running TC_010 - Type: edge_case
+2026-01-14 17:52:11 - conftest - INFO - Finished test: test_login_data_driven[test_data9]
+2026-01-14 17:52:11 - conftest - INFO - Starting test: test_invalid_data[test_data0]
+2026-01-14 17:52:11 - utils.logger - INFO - Running TC_019 - Invalid email: notanemail
+2026-01-14 17:52:12 - conftest - INFO - Finished test: test_invalid_data[test_data0]
+2026-01-14 17:52:12 - conftest - INFO - Starting test: test_invalid_data[test_data1]
+2026-01-14 17:52:12 - utils.logger - INFO - Running TC_020 - Invalid email: @test.com
+2026-01-14 17:52:13 - conftest - INFO - Finished test: test_invalid_data[test_data1]
+2026-01-14 17:52:13 - conftest - INFO - Starting test: test_invalid_data[test_data2]
+2026-01-14 17:52:13 - utils.logger - INFO - Running TC_021 - Invalid email: test@
+2026-01-14 17:52:13 - conftest - INFO - Finished test: test_invalid_data[test_data2]
+2026-01-14 17:52:13 - conftest - INFO - Starting test: test_invalid_data[test_data3]
+2026-01-14 17:52:13 - utils.logger - INFO - Running TC_022 - Invalid password: 123
+2026-01-14 17:52:14 - conftest - INFO - Finished test: test_invalid_data[test_data3]
+2026-01-14 17:52:14 - conftest - INFO - Starting test: test_invalid_data[test_data4]
+2026-01-14 17:52:14 - utils.logger - INFO - Running TC_023 - Invalid password: nan
+2026-01-14 17:52:14 - conftest - INFO - Finished test: test_invalid_data[test_data4]
+2026-01-14 17:52:14 - conftest - INFO - Starting test: test_invalid_data[test_data5]
+2026-01-14 17:52:14 - utils.logger - INFO - Running TC_024 - Invalid username: <script>alert(1)</script>
+2026-01-14 17:52:15 - conftest - INFO - Finished test: test_invalid_data[test_data5]
+2026-01-14 17:52:15 - conftest - INFO - Starting test: test_invalid_data[test_data6]
+2026-01-14 17:52:15 - utils.logger - INFO - Running TC_025 - Invalid username: admin' OR '1'='1
+2026-01-14 17:52:16 - conftest - INFO - Finished test: test_invalid_data[test_data6]
+2026-01-14 17:52:16 - conftest - INFO - Starting test: test_user_registration_excel[test_data0]
+2026-01-14 17:52:16 - utils.logger - INFO - Running TC_026 - Type: positive
+2026-01-14 17:52:17 - conftest - INFO - Finished test: test_user_registration_excel[test_data0]
+2026-01-14 17:52:17 - conftest - INFO - Starting test: test_user_registration_excel[test_data1]
+2026-01-14 17:52:17 - utils.logger - INFO - Running TC_027 - Type: positive
+2026-01-14 17:52:18 - conftest - INFO - Finished test: test_user_registration_excel[test_data1]
+2026-01-14 17:52:18 - conftest - INFO - Starting test: test_user_registration_excel[test_data2]
+2026-01-14 17:52:18 - utils.logger - INFO - Running TC_028 - Type: positive
+2026-01-14 17:52:19 - conftest - INFO - Finished test: test_user_registration_excel[test_data2]
+2026-01-14 17:52:19 - conftest - INFO - Starting test: test_user_registration_excel[test_data3]
+2026-01-14 17:52:19 - utils.logger - INFO - Running TC_029 - Type: negative
+2026-01-14 17:52:20 - conftest - INFO - Finished test: test_user_registration_excel[test_data3]
+2026-01-14 17:52:20 - conftest - INFO - Starting test: test_user_registration_excel[test_data4]
+2026-01-14 17:52:20 - utils.logger - INFO - Running TC_030 - Type: negative
+2026-01-14 17:52:20 - conftest - INFO - Finished test: test_user_registration_excel[test_data4]
+2026-01-14 17:52:20 - conftest - INFO - Starting test: test_login_api_json[test_data0]
+2026-01-14 17:52:20 - utils.logger - INFO - Running TC_031 - POST /login
+2026-01-14 17:52:21 - conftest - INFO - Finished test: test_login_api_json[test_data0]
+2026-01-14 17:52:21 - conftest - INFO - Starting test: test_login_api_json[test_data1]
+2026-01-14 17:52:21 - utils.logger - INFO - Running TC_032 - POST /login
+2026-01-14 17:52:22 - conftest - INFO - Finished test: test_login_api_json[test_data1]
+2026-01-14 17:52:22 - conftest - INFO - Starting test: test_register_api_json[test_data0]
+2026-01-14 17:52:22 - utils.logger - INFO - Running TC_033 - POST /register
+2026-01-14 17:52:23 - conftest - INFO - Finished test: test_register_api_json[test_data0]
+2026-01-14 17:52:23 - conftest - INFO - Starting test: test_register_api_json[test_data1]
+2026-01-14 17:52:23 - utils.logger - INFO - Running TC_034 - POST /register
+2026-01-14 17:52:23 - conftest - INFO - Finished test: test_register_api_json[test_data1]
+2026-01-14 17:52:23 - conftest - INFO - Starting test: test_users_api_json[test_data0]
+2026-01-14 17:52:23 - utils.logger - INFO - Running TC_035 - GET /users/2
+2026-01-14 17:52:24 - conftest - INFO - Finished test: test_users_api_json[test_data0]
+2026-01-14 17:52:24 - conftest - INFO - Starting test: test_users_api_json[test_data1]
+2026-01-14 17:52:24 - utils.logger - INFO - Running TC_036 - GET /users/23
+2026-01-14 17:52:25 - conftest - INFO - Finished test: test_users_api_json[test_data1]
+2026-01-14 17:52:25 - conftest - INFO - ================================================================================
+2026-01-14 17:52:25 - conftest - INFO - TEST SESSION FINISHED
+2026-01-14 17:52:25 - conftest - INFO - ================================================================================
